@@ -4,14 +4,102 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>SingleStore Take-Home Test</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-  <script src='script.js'></script>
+  <title>Book a Demo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato">
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/variables.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/common.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/styles/components.css'>
+
+  <script src="https://kit.fontawesome.com/3975f80985.js" crossorigin="anonymous"></script>
+  <script src='./assets/scripts/components.js'></script>
+  <script src='./assets/scripts/main.js'></script>
 </head>
 
 <body>
-
+  <nav>
+    <img class="logo" src="./assets/logo/RGB/singlestore_logo_horizontal_color_on-black_rgb.svg" />
+  </nav>
+  <section class="main d-flex flex-column align-items-center">
+    <div class="page-mark">
+      <i class="far fa-calendar-alt"></i>
+    </div>
+    <h2 class="page-title">Book a demo</h2>
+    <p class="page-description text-center">Help us customize your demo by answering the following questions below.</p>
+    <form class="booking-form">
+      <div class="form-group business-email">
+        <label for="business-email">Business Email</label>
+        <input id="business-email" type="text" placeholder="Enter your business email" />
+        <div class="invalid-feedback">
+          Please make sure this isn’t a personal email address
+        </div>
+      </div>
+      <div class="form-group business-size">
+        <label for="business-size">Business Size</label>
+        <select id="business-size" class="custom-select" placeholder="Select Size">
+          <option value="" hidden></option>
+          <option value="1-10">1-10</option>
+          <option value="11-50">11-50</option>
+          <option value="51-100">51-100</option>
+          <option value="101-250">101-250</option>
+          <option value="251-1000">251-1000</option>
+          <option value="1000+">1000+</option>
+        </select>
+        <div class="invalid-feedback">
+          Please make sure you have to select business size
+        </div>
+      </div>
+      <div class="form-group importance-indicator">
+        <label>What is the most important thing to you in a solution?</label>
+        <div class="radio-group radio-group-column2">
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Real-time Analytics">
+            <span>Real-time Analytics</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Scalability">
+            <span>Scalability</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Query Response Time">
+            <span>Query Response Time</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Document Storage">
+            <span>Document Storage</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="High Concurrency">
+            <span>High Concurrency</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Full Text Search">
+            <span>Full Text Search</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Fast Data Ingest">
+            <span>Fast Data Ingest</span>
+          </div>
+          <div class="radio-block">
+            <input type="radio" group="importance-indicator" value="Price">
+            <span>Price</span>
+          </div>
+        </div>
+        <div class="invalid-feedback">
+          Please make sure you have to select one of importance indicators
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="schedule-btn">
+          Continue to Schedule a Time <i class="suffix-icon fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </form>
+  </section>
 </body>
 
 </html>

@@ -1,0 +1,37 @@
+:root {
+  --primary-bg-color: #8800CC;
+  --secondary-bg-color: #777582;
+
+  --primary-text-color: #1B1A21;
+  --secondary-text-color: #777582;
+
+  /* navbar */
+  --navbar-bg-color: #1B1A21;
+
+  /* label */
+  --label-text-color: #4C4A57;
+
+  /* input */
+  --input-bg-color: #F3F3F5;
+  --input-placeholder-text-color: #777582;
+  --input-focused-bg-color: #FFFFFF;
+  --input-focused-border-color: #C550FF;
+  --input-valid-border-color: #00873F;
+  --input-valid-icon-color: #00873F;
+  --input-invalid-bg-color: #FFFFFF;
+  --input-invalid-border-color: #C41337;
+  --input-invalid-icon-color: #C41337;
+  --input-invalid-feedback-text-color: #C41337;
+
+  /* select */
+  --select-options-bg-color: #FFFFFF;
+  --select-options-border-color: #E6E5EA;
+  --select-options-box-shadow-color: rgba(0, 0, 0, 0.1);
+
+  /* button */
+  --button-text-color: #FFFFFF;
+  --button-default-bg-color: var(--primary-bg-color);
+  --button-hover-bg-color: #AA00FF;
+  --button-focus-bg-color: #AA00FF;
+  --button-active-bg-color: #8800CC;
+}

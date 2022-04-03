@@ -1,0 +1,72 @@
+body {
+  font-family: 'Lato', sans-serif;
+  min-width: 1024px;
+  min-height: 1000px;
+  margin: 0px;
+}
+
+nav {
+  height: 80px;
+  background: var(--navbar-bg-color);
+}
+
+nav .logo {
+  width: 135.52px;
+  height: 28.35px;
+  padding: 25.83px 24px;
+}
+
+.page-mark {
+  display: table;
+  width: 120px;
+  height: 120px;
+  margin: 80px 0px 40px 0px;
+  border-radius: 50%;
+  background: #F9EDFF;
+}
+
+.page-mark i {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  background: linear-gradient(180deg, #AA00FF 0%, #00A3D7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-title {
+  max-width: 400px;
+  padding: 0px;
+  margin: 0px;
+  color: var(--primary-text-color);
+}
+
+.page-description {
+  max-width: 400px;
+  margin: 11px 0px 0px 0px;
+  color: var(--secondary-text-color);
+}
+
+.page-content {
+  max-width: 400px;
+  margin: 16px 0px 0px 0px;
+  color: var(--secondary-text-color);
+}
+
+/* booking-page */
+.booking-form {
+  width: 400px;
+}
+
+.business-size {
+  margin-top: 12px;
+}
+
+.schedule-btn {
+  margin-top: 40px;
+}
